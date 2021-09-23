@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item Logo">
+            <a class="nav__link upp">Random<span class="X">X</span>bet</a>
+          </li>
+          <li class="nav__list-right">
+            Name: &nbsp;<span id="name1"></span>&nbsp;| Phone Number: &nbsp;
+            <span id="number1"></span>&nbsp;&nbsp;| Cost: &nbsp;
+            <span id="money1"></span>$&nbsp;&nbsp;
+          </li>
+        </ul>
+      </nav>
+
+      <h3>You will put money, for one click you will pay 5$</h3>
+      <div class="main">
+        <input type="text" placeholder="Name" id="nameid" /><br />
+        <input type="number" placeholder="Phone number" id="number" /><br />
+        <input type="number" placeholder="Put your money" id="money" /><br />
+        <button id="btn">Start</button>
+      </div>
+      <div class="play hidden">
+        <div class="congrat">
+          <h2 class="winner hidden1">
+            You won <i class="fad fa-trophy-alt"></i>
+          </h2>
+          <h2 class="loser hidden1">
+            You lost <i class="far fa-window-close"></i>
+          </h2>
+        </div>
+
+        <h1 id="h1">0</h1>
+        <h1>5 and 7 are lucky number. <br />If you win you will take 10$</h1>
+        <button id="click">&nbsp;&nbsp;Click&nbsp;&nbsp;</button>
+        <button id="returna">&nbsp;&nbsp;Return&nbsp;&nbsp;</button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
